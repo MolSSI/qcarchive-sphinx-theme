@@ -49,6 +49,7 @@
   flex: 1;
   color: HEADER_FONT_COLOR;
   transition: .3s;
+  box-shadow: 0.5px 1.5px 0.5px gray;
 
 }
 
@@ -72,6 +73,11 @@
   display: none; /* hide 'em */
   color: HEADER_FONT_COLOR;
   background-color: HEADER_BACKGROUND_COLOR;
+  box-shadow: 0px 0px;
+}
+#qca-header li:hover { /* when list items are hovered over, do this to lists contained within them... */
+  display: block; /* show 'em */
+  background-color: HEADER_BACKGROUND_COLOR_LIGHT;
 }
 
 

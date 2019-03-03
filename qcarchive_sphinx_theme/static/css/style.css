@@ -173,6 +173,7 @@ THE POSSIBILITY OF SUCH DAMAGE.
   flex: 1;
   color: #231F20;
   transition: .3s;
+  box-shadow: 0.5px 1.5px 0.5px gray;
 
 }
 
@@ -196,6 +197,11 @@ THE POSSIBILITY OF SUCH DAMAGE.
   display: none; /* hide 'em */
   color: #231F20;
   background-color: white;
+  box-shadow: 0px 0px;
+}
+#qca-header li:hover { /* when list items are hovered over, do this to lists contained within them... */
+  display: block; /* show 'em */
+  background-color: #BCBEC0;
 }
 
 
