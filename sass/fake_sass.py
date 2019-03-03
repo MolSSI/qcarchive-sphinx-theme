@@ -14,10 +14,13 @@ template = "\n".join(template)
 
 
 colors = {
-    "light-blue": "#0080C7",
-    "dark-blue": "#513D92",
-    "black": "#231F20",
-    "gray": "#BCBEC0",
+
+    # QCA colors
+    "qca-light-blue": "#0080C7",
+    "qca-dark-blue": "#513D92",
+    "qca-black": "#231F20",
+    "qca-gray": "#BCBEC0",
+
     "gray2": "#909090",
     "white": "white",
 }
@@ -26,15 +29,15 @@ associations = {
 
     # Header
     "HEADER_BACKGROUND_COLOR": "white",
-    "HEADER_FONT_COLOR": "black",
-    "HEADER_HOVOR_COLOR": "gray",
+    "HEADER_FONT_COLOR": "qca-black",
+    "HEADER_HOVOR_COLOR": "qca-gray",
 
     # Menu items
-    "MENU_BACKGROUND_COLOR": "dark-blue",
-    "MENU_BACKGROUND_SEARCH_COLOR": "black",
-    "MENU_BACKGROUND_NESTED_COLOR": "gray",
+    "MENU_BACKGROUND_COLOR": "qca-black",
+    "MENU_BACKGROUND_SEARCH_COLOR": "qca-black",
+    "MENU_BACKGROUND_NESTED_COLOR": "qca-gray",
     "MENU_BACKGROUND_NESTED_HOVOR_COLOR": "gray2", # Should be close to the above
-    "MENU_FONT_HEADER_COLOR": "light-blue",
+    "MENU_FONT_HEADER_COLOR": "qca-light-blue",
     "MENU_FONT_COLOR": "white", 
 }
 
