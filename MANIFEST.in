@@ -2,6 +2,7 @@ recursive-include qcarchive_sphinx_theme *.py
 recursive-include qcarchive_sphinx_theme *.html
 recursive-include qcarchive_sphinx_theme *.css
 recursive-include qcarchive_sphinx_theme *.svg
+recursive-include qcarchive_sphinx_theme *.png
 recursive-include qcarchive_sphinx_theme *.conf
 
 include versioneer.py
