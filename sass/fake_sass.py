@@ -21,24 +21,29 @@ colors = {
     "qca-black": "#231F20",
     "qca-gray": "#BCBEC0",
 
-    "gray2": "#909090",
+    "menu-gray": "#322E2F", # 6% gradient
+    "menu-gray2": "#4C4849",
+    "menu-gray3": "#656162",
     "white": "white",
+    "font-white": "#F5FFFF"
 }
 
 associations = {
 
     # Header
+    "HEADER_BACKGROUND_COLOR_LIGHT": "qca-gray",
     "HEADER_BACKGROUND_COLOR": "white",
     "HEADER_FONT_COLOR": "qca-black",
-    "HEADER_HOVOR_COLOR": "qca-gray",
+    "HEADER_HOVOR_COLOR": "menu-gray",
+    "FONT_HOVOR_COLOR": "font-white",
 
     # Menu items
-    "MENU_BACKGROUND_COLOR": "qca-black",
+    "MENU_BACKGROUND_COLOR": "menu-gray",
+    "MENU_BACKGROUND_NESTED_COLOR": "menu-gray2",
+    "MENU_BACKGROUND_NESTED_HOVOR_COLOR": "menu-gray3",
     "MENU_BACKGROUND_SEARCH_COLOR": "qca-black",
-    "MENU_BACKGROUND_NESTED_COLOR": "qca-gray",
-    "MENU_BACKGROUND_NESTED_HOVOR_COLOR": "gray2", # Should be close to the above
     "MENU_FONT_HEADER_COLOR": "qca-light-blue",
-    "MENU_FONT_COLOR": "white", 
+    "MENU_FONT_COLOR": "font-white", 
 }
 
 replacements = {k: colors[v] for k, v in associations.items()}

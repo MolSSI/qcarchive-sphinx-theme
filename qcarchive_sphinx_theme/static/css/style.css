@@ -50,19 +50,19 @@ THE POSSIBILITY OF SUCH DAMAGE.
 .wy-menu-vertical li ul li a,
 .wy-menu-vertical li.current a,
 .wy-menu-vertical a {
-  color: white;
+  color: #F5FFFF;
 }
 
 .wy-menu-vertical li.toctree-l2.current>a:hover,
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a:hover,
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4>a:hover,
 .wy-menu-vertical li.current a:hover {
-  background: #909090;
-  color: white;
+  background: #656162;
+  color: #F5FFFF;
 }
 
 .wy-menu-vertical a:hover {
-  background: #BCBEC0;
+  background: #4C4849;
 }
 
 .wy-side-nav-search>a img.logo,
@@ -85,7 +85,7 @@ THE POSSIBILITY OF SUCH DAMAGE.
 
 .wy-menu-vertical li.on a,
 .wy-menu-vertical li.current>a {
-  background: #BCBEC0;
+  background: #4C4849;
   border-top: none;
   border-bottom: none;
 }
@@ -93,28 +93,28 @@ THE POSSIBILITY OF SUCH DAMAGE.
 
 .wy-menu-vertical ul,
 .wy-side-scroll {
-  background-color: #231F20;
+  background-color: #322E2F;
 }
 
 .wy-menu-vertical li.toctree-l2.current>a,
 .wy-menu-vertical li.toctree-l2.current li.toctree-l3>a,
 .wy-menu-vertical li.toctree-l3.current li.toctree-l4>a,
 .wy-menu-vertical li ul {
-  background-color: #BCBEC0;
+  background-color: #4C4849;
 }
 
 /* Mobile */
 
 .wy-nav-top {
-  background: #231F20;
+  background: #322E2F;
 }
 
 .wy-nav-top a {
-  color: white;
+  color: #F5FFFF;
 }
 
 .wy-nav-top i {
-  color: white;
+  color: #F5FFFF;
 }
 
 .wy-breadcrumbs {
@@ -123,12 +123,12 @@ THE POSSIBILITY OF SUCH DAMAGE.
 
 /* File _rtd_overrides.css */
 .wy-nav-side {
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 0rem;
 }
 
 .wy-nav-content {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 #qca-header {
@@ -137,8 +137,8 @@ THE POSSIBILITY OF SUCH DAMAGE.
   left: 0;
   right: 0;
   z-index: 300;
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  line-height: 60px;
   text-align: center;
   background-color: white;
   color: #231F20;
@@ -157,7 +157,9 @@ THE POSSIBILITY OF SUCH DAMAGE.
 }
 
 #qca-header a:hover {
-  background-color: #BCBEC0;
+  outline: 1px inset #322E2F;
+  color: #F5FFFF;
+  background-color: #322E2F;
 }
 
 @media (max-width: 768px) {
@@ -196,12 +198,11 @@ THE POSSIBILITY OF SUCH DAMAGE.
   background-color: white;
 }
 
+
 #qca-header li:hover ul { /* when list items are hovered over, do this to lists contained within them... */
   display: block; /* show 'em */
-}
-
-#qca-header ul li:hover { /* when list items are hovered over, do this to lists contained within them... */
   background-color: #BCBEC0;
 }
+
 
 /* File _qca_header.css */

@@ -1,10 +1,10 @@
 .wy-nav-side {
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 0rem;
 }
 
 .wy-nav-content {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 #qca-header {
@@ -13,8 +13,8 @@
   left: 0;
   right: 0;
   z-index: 300;
-  height: 50px;
-  line-height: 50px;
+  height: 60px;
+  line-height: 60px;
   text-align: center;
   background-color: HEADER_BACKGROUND_COLOR;
   color: HEADER_FONT_COLOR;
@@ -33,6 +33,8 @@
 }
 
 #qca-header a:hover {
+  outline: 1px inset HEADER_HOVOR_COLOR;
+  color: FONT_HOVOR_COLOR;
   background-color: HEADER_HOVOR_COLOR;
 }
 
@@ -72,10 +74,9 @@
   background-color: HEADER_BACKGROUND_COLOR;
 }
 
+
 #qca-header li:hover ul { /* when list items are hovered over, do this to lists contained within them... */
   display: block; /* show 'em */
+  background-color: HEADER_BACKGROUND_COLOR_LIGHT;
 }
 
-#qca-header ul li:hover { /* when list items are hovered over, do this to lists contained within them... */
-  background-color: HEADER_HOVOR_COLOR;
-}
