@@ -1,0 +1,81 @@
+.wy-nav-side {
+  padding-top: 50px;
+  padding-bottom: 0rem;
+}
+
+.wy-nav-content {
+  margin-top: 50px;
+}
+
+#qca-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 300;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: HEADER_BACKGROUND_COLOR;
+  color: HEADER_FONT_COLOR;
+  display: flex;
+}
+
+#qca-header .caption {
+  flex: 0;
+  width: 300px;
+  max-height: 100%;
+  padding: 5px;
+}
+
+#qca-header a {
+  color: HEADER_FONT_COLOR;
+}
+
+#qca-header a:hover {
+  background-color: HEADER_HOVOR_COLOR;
+}
+
+@media (max-width: 768px) {
+  #qca-header {
+    display: none;
+  }
+}
+
+#qca-header ul { /* all lists... */
+  display: flex;
+  flex: 1;
+  color: HEADER_FONT_COLOR;
+  transition: .3s;
+
+}
+
+#qca-header li { /* all list items... */
+  flex: 1;
+  position: relative; /* set the origin for child boxes to be positioned from */
+  transition: .3s;
+  text-align: left;
+  max-width: 12rem;
+}
+
+#qca-header ul li a {
+  padding-left: 1rem;
+  display: block;
+  height: 100%;
+}
+
+#qca-header ul ul { /* lists within lists... */
+  left: 0; /* align them to the left of the parent list item  - necessary for some older browsers */
+  top: 100%; /* align them to the bottom of the parent list item - again only necessary for older browsers */
+  display: none; /* hide 'em */
+  color: HEADER_FONT_COLOR;
+  background-color: HEADER_BACKGROUND_COLOR;
+}
+
+#qca-header li:hover ul { /* when list items are hovered over, do this to lists contained within them... */
+  display: block; /* show 'em */
+}
+
+#qca-header ul li:hover { /* when list items are hovered over, do this to lists contained within them... */
+  background-color: HEADER_HOVOR_COLOR;
+}
