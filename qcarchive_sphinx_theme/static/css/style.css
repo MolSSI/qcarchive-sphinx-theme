@@ -30,7 +30,7 @@ THE POSSIBILITY OF SUCH DAMAGE.
 
 @import url("theme.css");
 
-.rst-content h1,h2,h3,h4,h5 {
+.rst-content p,h1,h2,h3,h4,h5 {
   font-family: 'Garamond', 'Georgia', serif;
   font-weight: normal;
   color: black;
