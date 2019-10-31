@@ -30,6 +30,17 @@ THE POSSIBILITY OF SUCH DAMAGE.
 
 @import url("theme.css");
 
+/* Custom fixes for tables and lists */
+
+.rst-content .section ul > li > p {
+    margin-bottom: 0px
+}
+
+.section th > p {
+    margin-bottom: 0px
+}
+
+/* General RST overloads*/
 .rst-content {
   padding-top: 61px;
 }
