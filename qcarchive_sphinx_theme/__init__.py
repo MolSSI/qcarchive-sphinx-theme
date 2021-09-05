@@ -7,9 +7,9 @@ def get_html_theme_path():
 
 # See http://www.sphinx-doc.org/en/stable/theming.html#distribute-your-theme-as-a-python-package
 def setup(app):
-    app.add_stylesheet("css/small-apps.css")
-    app.add_stylesheet("css/themefisher-font.css")
-    app.add_stylesheet("css/style.css")
+    app.add_css_file("css/small-apps.css")
+    app.add_css_file("css/themefisher-font.css")
+    app.add_css_file("css/style.css")
     app.add_html_theme('qcarchive_sphinx_theme', path.abspath(path.dirname(__file__)))
 
 
